@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Práctica 6</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="shortcut icon" href="./img/favicon.png">
+</head>
+
+<body>
+	<header>
+		<div id="header-center">
+			<div id="logo"></div>
+			<div id="nombre-cabecera"><span id="nombreEmpresa">NSX</span>delivery</div>
+			<div id="search">
+				<form>
+					<input type="button" id="botonBusqueda" value="search"/>
+					<input type="text" id="textoBusqueda"/>
+				</form>
+			</div>						
+		</div>
+	</header>  
+	
+	<div id="fondo_nav">			
+		<div id="fondo_nav_center">
+			<nav>
+				<a href="./index.html"><div class="enlace" id="inicioN">Home</div></a>
+				<a href="./services.html"><div class="enlace" id="servicesN">Services</div></a>                    
+				<a href="./about.html"><div class="enlace" id="aboutN">About</div></a>
+				<a href="./contact.html"><div class="activo enlace" id="contactoN">Contact</div></a>   
+			</nav>
+		</div>
+	</div>
+	            
+	<div id="contenedorBody">
+		<div id="body">		
+			<div id="body_center">		
+				<div id="formulario">
+					<div id="titulo">
+						<span id="titulo_contacto">Contact</span>
+						<span id="texto_contacto">To contact us, select your preferred branch or call our hotline.
+						<br/>Should you have any query regarding our courier services please fill 
+						out the form below and we’ll respond as quickly as possible.</span>
+					</div>
+					<form name="contacto" id="form-contacto" method="post" action="#">
+						<section id="aligned">
+							<input type="text" name="name" id="name" placeholder="Name" autocomplete="on" tabindex="1" class="txtinput">
+							<!--<input type="email" name="email" id="email" placeholder="E-mail" autocomplete="on" tabindex="2" class="txtinput">-->								
+							<input type="text" name="email" id="email" placeholder="E-mail" autocomplete="on" tabindex="2" class="txtinput">
+							<textarea name="message" id="message" placeholder="Enter your message..." tabindex="3" class="txtblock"></textarea>
+						</section>
+						<section id="buttons">
+							<input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="4" value="Send!">
+						</section>
+					</form>
+				</div>
+
+				<div id="datos">					
+					<div id="direccion">
+						<span id="dir_titulo">Headquarters:</span>
+						Calle Velazquez nº 27<br/>
+						28001 Madrid<br/>
+						Spain<br/>	
+						
+						<span id="phone">(+34) 91 2364 123</span>
+						<a id="enlace" href="mailto:info@nsx.es">info@nsx.es</a>							
+					</div>
+					<form name="agencia" id="form-agencia" method="post" action="#">
+						<label for="agencia_texto">Search agency</label>
+						<input type="text" id="agencia_texto"/>
+						<input type="button" id="agencia_boton" value="Search"/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>     
+    
+    <footer>
+		<div id="footerCenter">
+			<div id="footerNombre">				
+				<span id="fN_nombre"><span id="nombreEmpresaFooter">NSX</span>delivery</span>
+				Calle Velazquez nº 27<br/>
+				28001 Madrid<br/>
+				Spain<br/>	
+			</div>
+			
+			<small>Copyright &copy;2014 NSX delivery</small>
+			
+			
+			<div id="footerPartners">
+				&nbsp;&nbsp;<span class="air">c</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="air">O</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="air">y</span><br/>
+				&nbsp;<span class="air">A</span>&nbsp;&nbsp;&nbsp;<span class="air">P</span>&nbsp;&nbsp;&nbsp;<span class="air">B</span><br/>
+				<span class="air">E</span>&nbsp;<span class="air">S</span>
+			</div>
+			
+			<div id="footerContacto">
+				(+34) 91 2364 123<br/>
+				<a href="mailto:info@nsx.es">info@nsx.es</a>
+			</div>
+			
+			<div id="footerEnlaces">
+				<a href="#">site map</a> | <a href="./index.html">home</a> 
+				| <a href="./services">services</a> | <a href="./about">about</a> 
+				| <a href="./contact.html">contact</a> 
+			</div>
+		</div>
+    </footer>
+</body>
+
+</html>

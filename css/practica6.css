@@ -1,0 +1,804 @@
+html,
+body {
+    margin: 0 auto;
+}
+
+/*  Encabezamiento  */
+header {
+    height: 90px;
+    background-color: #a1c2e6;
+	overflow: hidden;
+}
+
+#header-center {
+    width: 1300px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    background-image: url("../img/header.png");
+    width: 171px;
+    height: 71px;
+    margin-left: 50px;
+    margin-top: 10px; 
+}
+
+#nombre-cabecera {
+	float: left;
+    font-family: 'LoraRegular';
+    font-size: 35px;
+    margin-top: 10px;	
+    margin-left: 12px;
+	color: #0f2345;
+    padding: 0px;
+    height: 55px;
+}
+
+#nombreEmpresa{
+    font-family: 'OpenSansBoldItalic';
+	font-size: 45px;
+    text-shadow: 0.5px 0.5px #fff;
+}
+
+#search {
+	float: right;
+	width: 250px;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+#search #botonBusqueda{
+	display: block;
+	float: left;
+	width: 90px;
+	height: 20px;
+	font-family: 'josefin_sansregular';
+	line-height: 20px;
+	font-size: 20px;
+	color: #000000;
+	border: 0;
+	margin-top: 2px;
+	padding-left: 20px;
+	background: #a1c2e6 url('../img/header.png');
+	background-position: 0 -126px;
+}
+#search #botonBusqueda:hover{
+	color: #2176d1;	
+	cursor: pointer;
+	background-position: 0 -146px;
+}
+#search #textoBusqueda {
+	display: block;
+	float: right;
+	width: 150px;
+	height: 20px;
+	color: black;
+	font-family: 'josefin_sansregular';
+	color: #8B8989;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #acaeb9;
+}
+
+#fondo_nav{
+	height: 30px;
+	background-color: #005974;
+}
+
+#fondo_nav_center{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+nav{
+	width: 419px;
+	height: 50px;
+	clear: both;
+	float: right;
+	height: 50px;
+	margin-top: -10px;
+}
+.enlace {
+	float: left;
+	width: 111px;
+	height: 40px;
+	font-family: 'josefin_sansregular';
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	background: url('../img/botones_.png');
+	margin-left: -11px;
+	text-indent: 10px;
+}
+.enlace:hover, .enlace.activo{
+	color: #ffffff;
+	background-position: 0 -40px;
+}
+#inicioN{	
+	background: url('../img/botonesIzq_.png');
+	width: 130px;
+	text-indent: 25px;
+}
+#inicioN:hover, #inicioN.activo{
+	background: url('../img/botonesIzq_.png');
+	background-position: 0 -40px;
+}
+nav a:link,
+nav a:hover,
+nav a:visited,
+nav a:active,
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Cuerpo */
+
+#body{
+	background: url('../img/fondo.png') no-repeat scroll center center / cover transparent;
+}
+#body_center{	
+	margin: 0 auto;
+	width: 1200px;
+	height: 940px;
+	/*background: #c8c8c8;*/
+}
+
+#principal{
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 25px;
+	margin-bottom: 25px;
+	width: 1200px;
+	height: 430px;
+}
+
+#imagenPpal{
+	width: 767px;
+	height: 430px;
+	background: url('../img/ppal.png');
+	float: left;
+}
+
+#banderas{
+	float: right;
+	width: 413px;
+	height: 430px;
+}
+.flag{
+	display: block;
+	height: 100px;
+	background: url('../img/flag.png');
+	background-position: 0 -10px;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	line-height: 100px;
+	font-family: 'syncopateregular';
+	text-indent: 50px;
+}
+
+#europa{
+	margin-bottom: 65px;
+}
+#europa:hover{	
+	background: url('../img/flag.png');
+	background-position: 0 -130px;
+}
+#usa{
+	margin-bottom: 65px;
+}
+#usa:hover{	
+	background: url('../img/flag.png');
+	background-position: 0 -250px;
+}
+#brazil:hover{	
+	background: url('../img/flag.png');
+	background-position: 0 -370px;
+}
+
+#busqueda{
+/*
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	*/
+	margin: 0 auto;
+	width: 1000px;
+	height: 430px;
+	background-color: #e0e0e0;
+	border-radius: 0px 30px 0px 0px;
+	-moz-border-radius: 0px 30px 0px 0px;
+	-webkit-border-radius: 0px 30px 0px 0px;
+}
+#b_logo{
+	float:left;
+	width:150px;
+	height:150px;
+	background: url('../img/b_logo.png');
+}
+#b_formulario{
+	display: block;
+	float:right;
+	width: 850px;
+	height: 150px;
+	margin: 0 auto;
+    font-family: "merriweatherbold_italic";
+	font-size: 16px;
+	text-align: center;
+	border-radius: 0px 30px 0px 0px;
+	-moz-border-radius: 0px 30px 0px 0px;
+	-webkit-border-radius: 0px 30px 0px 0px;
+}
+#b_formulario span {
+	display: block;
+	float: left;		
+}
+#b_formulario #bF_titulo {
+	width: 860px;
+	height: 60px;
+	margin: 0 auto;
+	margin-left: -3px;
+	font-size: 30px;
+	line-height: 60px;
+	background: url('../img/bF_titulo.png');
+}
+#b_formulario #bF_enter {
+	margin-top: 20px;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 80px;
+}
+#b_formulario #bF_enlace{	
+	display: block;
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size : 14px;
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: underline;
+}
+#b_formulario #bF_enlace:hover{
+	color: #ffffff;	
+	cursor: pointer;
+}
+
+#b_formulario #bF_form #bF_input{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 150px;
+	height: 25px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #acaeb9;
+	display: block;
+	float: left;
+}
+#b_formulario #bF_form #bF_go{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 60px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	height: 30px;
+	padding-right: 20px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #acaeb9;
+	background: url(../img/flechaBusqueda.png);
+	background-color: #1185c4;
+}
+
+#b_formulario #bF_form #bF_go:hover{
+	color: #ffffff;	
+	cursor: pointer;
+	background-position: 0 -30px;
+}
+
+#b_resultado {		
+	float: left;
+	width: 360px;
+	height: 280px;	
+    font-family: 'LoraRegular';
+	border-radius: 0px 0px 0px 10px;
+	-moz-border-radius: 0px 0px 0px 10px;
+	-webkit-border-radius: 0px 0px 0px 10px;
+}
+#b_resultado span {
+	display: block;
+	float: left;		
+	padding-left: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+#b_resultado #bR_titulo{	
+	width: 360px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	padding-left: 0px;
+	/*background-color: #1185c4;*/
+	margin-bottom: 5px;
+	background: url(../img/tituloResultado.png);
+}
+#b_resultado #cabeceraResultado{
+	width: 360px;	
+	height: 30px;
+}
+#b_resultado #bR_date{
+	padding-left: 10px;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;	
+	background: url(../img/fondoResultado.png);
+	/*background-color: #1185c4;*/
+	/*margin-right: 2px;*/
+}
+#b_resultado #bR_location{
+	padding-left: 12px;
+	width: 110px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	background: url(../img/fondoResultado.png);
+	background-position: -110px;
+	/*background-color: #1185c4;
+	margin-right: 2px;*/
+}
+#b_resultado #bR_status{
+	padding-left: 12px;
+	width: 116px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	background: url(../img/fondoResultado.png);
+	background-position: -232px;
+	/*background-color: #1185c4;*/
+}
+
+#b_resultado .datos{
+	display: block;
+	margin-right: 2px;
+	padding-left: 10px;
+	margin-bottom: 2px;
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+	line-height: 30px;
+	background-color: #c2c2c2;	
+	margin-top: 5px;
+}
+
+#b_resultado .datos.lugar{
+	width: 130px;
+}
+
+#b_resultado .datos.estado{
+	width: 95px;
+	margin-right: 0;
+}
+#b_imagen{
+	display: block;
+	float: right;
+	width: 600px;
+	height: 280px;
+	/*margin-right: 100px;*/
+	background: url('../img/world.png');
+	border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+}
+
+/* Footer */
+
+footer{
+	height: 360px;	
+	font-family: 'montserratregular';
+	color: #949494;
+	background-color: #e0e0e0;	
+	overflow: hidden;
+}
+#footerCenter{
+	margin: 0 auto;
+	width: 1200px;
+	height: 260px;	
+	padding: 50px;
+}
+#footerNombre{
+	font-size: 20px;
+	float: left;
+	width: 260px;
+	height: 127px;
+	line-height: 25px;	
+}
+#fN_nombre{	
+	color: #3A3A3A;
+	font-family: 'LoraRegular';
+    font-size: 35px;    
+    height: 45px;    
+	line-height: 45px;
+}	
+
+#nombreEmpresaFooter{
+    font-family: 'OpenSansBoldItalic';
+	font-size: 45px;
+    text-shadow: 0.5px 0.5px #fff;
+}
+
+small{
+	clear:both;
+	float: left;
+	font-size: 16px;
+	margin-top: 140px;
+	height: 20px;
+	line-height: 20px;
+}
+
+#footerPartners{
+	position: relative;
+	margin-left: 340px;
+	margin-top: 15px;
+	width: 520px;
+	height: 225px;
+    font-family: 'liberation_sansregular';
+    font-size: 80px;
+    text-align: justify;
+    line-height: 70px;
+    color: #A9A9A9;
+}
+#footerPartners .air{
+	font-family: 'airline_logos';
+}
+
+#footerContacto{
+	clear:both;
+	float: right;
+	position: relative;
+	margin-top: -275px;
+	text-align: right;
+	font-size: 18px;
+}
+
+#footerEnlaces {
+	float: right;
+	margin-top: -20px;
+}
+
+footer a{
+	color: #999999;
+	text-decoration: none;
+}
+
+footer a:link,
+footer a:hover,
+footer a:visited,
+footer a:active,
+footer a {
+    text-decoration: none;
+    color: #999999;
+}
+
+footer a:hover{
+	color: black;
+}
+
+
+@media (max-width: 1299px){
+
+	/*  Encabezamiento  */
+	header {
+		min-width: 955px;
+	}
+	
+	#header-center {
+		width: 925px;
+	}
+	#logo {		
+		float: left;
+		background-position: 0 -71px;
+		width: 131px;
+		height: 55px;
+		margin-top: 20px;
+		margin-left: 0px;
+	}	
+	#nombre-cabecera {
+		float: left;
+		margin-top: 6px;	
+		margin-left: 10px;
+		margin-top: 10px;
+		padding: 0px;
+		height: 55px;
+	}
+	
+	#search {
+		margin-right: 0;
+		margin-top: 35px;
+	}
+	
+	#fondo_nav{
+		min-width: 955px;
+	}
+	
+	#fondo_nav_center{
+		width: 925px;
+	}
+	nav{
+		clear: both;
+		float: right;
+		height: 40px;
+		margin-top: -10px;
+		margin-right: 0;
+	}
+	
+	/* Cuerpo */
+	
+	#body{	
+		min-width: 955px;
+	}	
+	
+	#body_center{
+		width: 925px;
+	}
+
+	#principal{
+		margin: 0 auto;
+		margin-bottom: 25px;
+		width: 925px;
+		height: 430px;
+	}
+	
+	#imagenPpal{
+		width: 595px;
+		background-position: 0 -430px;
+	}
+
+	#banderas{
+		float: right;
+		width: 295px;
+		height: 430px;
+	}	
+	#europa:hover{	
+		background-position: 0 -490px;
+	}
+	#usa:hover{	
+		background-position: 0 -610px;
+	}
+	#brazil:hover{	
+		background-position: 0 -730px;
+	}
+	#busqueda{
+		margin: 0;
+		margin-bottom: 50px;
+		width: 925px;
+	}
+
+	#b_formulario{
+		display: block;
+		width: 775px;
+		height: 150px;
+	}	
+	
+	#b_formulario #bF_titulo {
+		width: 780px;		
+		margin-left: 0px;
+		background-position: 0 -60px;
+	}	
+
+	#b_formulario #bF_enter {
+		margin-left: 40px;
+	}	
+
+	#b_resultado {	
+		margin-left: 0;
+	}
+
+	#b_imagen{
+		float: right;
+		width: 555px;
+		margin-right: 0;
+		background-position: 0 -280px;
+	}	
+
+	
+	/* Footer */
+
+	footer{
+		min-width: 955px;
+	}
+
+	#footerCenter{
+		width: 925px;
+		padding: 0;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		
+	}
+	
+	#footerNombre{
+		width: 220px;
+		font-size: 17px;
+	}
+	
+	#fN_nombre{
+		font-size: 28px;
+	}
+	
+	small{
+		font-size: 12px;
+		margin-top: 140px;
+	}
+	
+	#footerPartners{
+		margin-left: 217px;
+		margin-top: 15px;
+		width: 491px;
+		font-size: 75px;
+		line-height: 70px;
+	}
+	
+	#footerContacto{
+		margin-top: -275px;
+		font-size: 16px;
+	}
+	
+	#footerEnlaces {
+		font-size: 12px;
+	}
+	
+}
+
+/* font */
+
+@font-face {
+    font-family: 'airline_logos';
+    src: url('../font/airline_logos-webfont.eot');
+    src: url('../font/airline_logos-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/airline_logos-webfont.woff2') format('woff2'),
+         url('../font/airline_logos-webfont.woff') format('woff'),
+         url('../font/airline_logos-webfont.ttf') format('truetype'),
+         url('../font/airline_logos-webfont.svg#airline_logos_past_and_presRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../font/montserrat-regular-webfont.eot');
+    src: url('../font/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../font/montserrat-regular-webfont.woff') format('woff'),
+         url('../font/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../font/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nimbus_sans';
+    src: url('../font/nimbus-webfont.eot');
+    src: url('../font/nimbus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/nimbus-webfont.woff2') format('woff2'),
+         url('../font/nimbus-webfont.woff') format('woff'),
+         url('../font/nimbus-webfont.ttf') format('truetype'),
+         url('../font/nimbus-webfont.svg#nimbus_sans_becker_tligRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'liberation_sansregular';
+    src: url('../font/liberationsans-regular-webfont.eot');
+    src: url('../font/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/liberationsans-regular-webfont.woff2') format('woff2'),
+         url('../font/liberationsans-regular-webfont.woff') format('woff'),
+         url('../font/liberationsans-regular-webfont.ttf') format('truetype'),
+         url('../font/liberationsans-regular-webfont.svg#liberation_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'syncopateregular';
+    src: url('../font/syncopate-regular-webfont.eot');
+    src: url('../font/syncopate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/syncopate-regular-webfont.woff2') format('woff2'),
+         url('../font/syncopate-regular-webfont.woff') format('woff'),
+         url('../font/syncopate-regular-webfont.ttf') format('truetype'),
+         url('../font/syncopate-regular-webfont.svg#syncopateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('../font/droidserif-webfont.eot');
+    src: url('../font/droidserif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/droidserif-webfont.woff2') format('woff2'),
+         url('../font/droidserif-webfont.woff') format('woff'),
+         url('../font/droidserif-webfont.ttf') format('truetype'),
+         url('../font/droidserif-webfont.svg#droid_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fugaz_oneregular';
+    src: url('../font/fugazone-regular-webfont.eot');
+    src: url('../font/fugazone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fugazone-regular-webfont.woff2') format('woff2'),
+         url('../font/fugazone-regular-webfont.woff') format('woff'),
+         url('../font/fugazone-regular-webfont.ttf') format('truetype'),
+         url('../font/fugazone-regular-webfont.svg#fugaz_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cantarelloblique';
+    src: url('../font/cantarell-oblique-webfont.eot');
+    src: url('../font/cantarell-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/cantarell-oblique-webfont.woff2') format('woff2'),
+         url('../font/cantarell-oblique-webfont.woff') format('woff'),
+         url('../font/cantarell-oblique-webfont.ttf') format('truetype'),
+         url('../font/cantarell-oblique-webfont.svg#cantarelloblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefin_sansregular';
+    src: url('../font/josefinsans-regular-webfont.eot');
+    src: url('../font/josefinsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/josefinsans-regular-webfont.woff2') format('woff2'),
+         url('../font/josefinsans-regular-webfont.woff') format('woff'),
+         url('../font/josefinsans-regular-webfont.ttf') format('truetype'),
+         url('../font/josefinsans-regular-webfont.svg#josefin_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweatherbold_italic';
+    src: url('../font/merriweather-bolditalic-webfont.eot');
+    src: url('../font/merriweather-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/merriweather-bolditalic-webfont.woff2') format('woff2'),
+         url('../font/merriweather-bolditalic-webfont.woff') format('woff'),
+         url('../font/merriweather-bolditalic-webfont.ttf') format('truetype'),
+         url('../font/merriweather-bolditalic-webfont.svg#merriweatherbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LoraRegular';
+    src: url('../font/lora-regular.eot');
+    src: url('../font/lora-regular.eot') format('embedded-opentype'),
+         url('../font/lora-regular.woff2') format('woff2'),
+         url('../font/lora-regular.woff') format('woff'),
+         url('../font/lora-regular.ttf') format('truetype'),
+         url('../font/lora-regular.svg#LoraRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('../font/opensans-bolditalic.eot');
+    src: url('../font/opensans-bolditalic.eot') format('embedded-opentype'),
+         url('../font/opensans-bolditalic.woff2') format('woff2'),
+         url('../font/opensans-bolditalic.woff') format('woff'),
+         url('../font/opensans-bolditalic.ttf') format('truetype'),
+         url('../font/opensans-bolditalic.svg#OpenSansBoldItalic') format('svg');
+}
+
+

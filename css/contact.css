@@ -1,0 +1,709 @@
+html,
+body {
+    margin: 0 auto;
+}
+
+/*  Encabezamiento  */
+header {
+	min-width: 1200px;
+    height: 90px;
+    background-color: #a1c2e6;
+}
+
+#header-center {
+    width: 1300px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    background-image: url("../img/header.png");
+    width: 171px;
+    height: 71px;
+    margin-left: 50px;
+    margin-top: 10px; 
+}
+
+#nombre-cabecera {
+	float: left;
+    font-family: 'LoraRegular';
+    font-size: 35px;
+    margin-top: 10px;	
+    margin-left: 12px;
+	color: #0f2345;
+    padding: 0px;
+    height: 55px;
+}
+
+#nombreEmpresa{
+    font-family: 'OpenSansBoldItalic';
+	font-size: 45px;
+    text-shadow: 0.5px 0.5px #fff;
+}
+
+#search {
+	float: right;
+	width: 250px;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+#search #botonBusqueda{
+	display: block;
+	float: left;
+	width: 90px;
+	height: 20px;
+	font-family: 'josefin_sansregular';
+	line-height: 20px;
+	font-size: 20px;
+	color: #000000;
+	border: 0;
+	margin-top: 2px;
+	padding-left: 20px;
+	background: #a1c2e6 url('../img/header.png');
+	background-position: 0 -126px;
+}
+#search #botonBusqueda:hover{
+	color: #2176d1;	
+	cursor: pointer;
+	background-position: 0 -146px;
+}
+#search #textoBusqueda {
+	display: block;
+	float: right;
+	width: 150px;
+	height: 20px;
+	color: black;
+	font-family: 'josefin_sansregular';
+	color: #8B8989;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #acaeb9;
+}
+
+#fondo_nav{
+	height: 30px;
+	background-color: #005974;
+}
+
+#fondo_nav_center{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+nav{
+	width: 419px;
+	height: 50px;
+	clear: both;
+	float: right;
+	height: 50px;
+	margin-top: -10px;
+}
+.enlace {
+	float: left;
+	width: 111px;
+	height: 40px;
+	font-family: 'josefin_sansregular';
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	background: url('../img/botones_.png');
+	margin-left: -11px;
+	text-indent: 10px;
+}
+.enlace:hover, .enlace.activo{
+	color: #ffffff;
+	background-position: 0 -40px;
+}
+#inicioN{	
+	background: url('../img/botonesIzq_.png');
+	width: 130px;
+	text-indent: 25px;
+}
+#inicioN:hover, #inicioN.activo{
+	background: url('../img/botonesIzq_.png');
+	background-position: 0 -40px;
+}
+nav a:link,
+nav a:hover,
+nav a:visited,
+nav a:active,
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Cuerpo */
+
+#contenedorBody{
+	background: url('../img/fondo.png') no-repeat scroll center center / cover transparent;
+}
+
+#body{	
+	margin: 0 auto;
+	width: 1200px;
+	height: 600px;
+}
+
+#body_center{
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 1200px;
+	background: #c8c8c8;
+	font-family: "josefin_sansregular";
+	font-size: 16px;
+	height: 501px;
+}
+
+#formulario{
+	float: left;
+	width: 775px;
+	height: 500px;
+	/*background-color: yellow;*/
+}
+
+#titulo_contacto{
+	display: block;
+	width: 225px;
+	height: 75px;
+	line-height: 75px;
+	/*background-color: blue;*/
+	float: left;
+	font-size: 32px;	
+	margin-left: 50px;
+}
+
+#texto_contacto{
+	clear: both;
+	display: block;
+	float: left;
+	width: 650px;
+	height: 75px;
+	line-height: 25px;
+	/*background-color: blue;*/
+	font-size: 20px;	
+	margin-left: 50px;
+}
+
+#form-contacto{
+	clear: both;
+	display: block;
+	float: left;
+	width: 650px;
+	height: 200px;
+	line-height: 25px;
+	/*background-color: red;*/
+	font-size: 16px;	
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+#datos{	
+	float: right;
+	width: 315px;
+	height: 475px;
+	padding-top: 25px;
+	/*background-color: yellow;*/
+}
+
+#direccion{
+	float:left;
+	width: 215px;
+	height: 260px;
+	padding-right: 50px;
+	/*background: green;*/
+	font-size: 20px;
+	margin-left: 15px;
+}
+#dir_titulo{
+	display: block;
+	width: 325px;
+	height: 35px;
+	line-height: 35px;
+	/*background-color: red;*/
+	float: left;
+	font-size: 24px;	
+	margin-left: -15px;
+}
+#phone{
+	display: block;
+	clear: both;
+	float: left;
+	margin-top: 45px;	
+	font-size: 24px;	
+	margin-left: -15px;
+}
+
+#phone::before{
+	content: "";
+	display: block;
+	float: left;
+	width: 50px;
+	height: 30px;
+	background: url('../img/contacto.png') no-repeat;
+}
+
+#direccion a:link,
+#direccion a:visited,
+#direccion a:active,
+#direccion a {
+    text-decoration: none;
+    color: black;
+}
+
+#direccion a:hover {
+    text-decoration: none;
+	color: #005974;
+}
+
+#enlace{	
+	display: block;
+	clear: both;
+	float: left;
+	margin-top: 35px;
+	font-size: 24px;	
+	margin-left: -15px;
+}
+#enlace::before{
+	content: "";
+	display: block;
+	float: left;
+	width:46px;
+	height: 30px;
+	background: url('../img/contacto.png');
+	background-position: 0 -30px;
+}
+
+#enlace:hover::before{
+	background-position: 0 -60px;
+}
+
+#form-agencia{
+	display:block;
+	float: left;
+	width: 310px;
+	height: 80px;
+	margin-top: 25px;
+	/*background: red;*/
+	font-size: 20px;
+}
+
+#form-agencia label{	
+	display: block;
+	clear: both;
+	float: left;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	color: black;
+}
+
+#agencia_boton{
+	display: block;
+	float: left;
+	text-align: left;
+	width: 60px;
+	margin-left: 20px;
+	margin-top: -3px;
+	height: 30px;
+	border: 1px solid;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border-color: #888888;
+    background-color: #A1C2E6;	
+}
+
+#agencia_boton:hover, #agencia_boton:active{	
+    background: #005974;
+	color: #ffffff;	
+}
+
+#agencia_texto {
+	display: block;
+	clear: both;
+	float: left;
+	width: 150px;
+	height: 20px;
+	color: black;
+	font-family: 'josefin_sansregular';
+	color: #8B8989;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #acaeb9;
+}
+
+/* Footer */
+
+footer{
+	height: 360px;	
+	font-family: 'montserratregular';
+	color: #949494;
+	background-color: #e0e0e0;	
+    overflow: hidden;
+}
+#footerCenter{
+	margin: 0 auto;
+	width: 1200px;
+	height: 260px;	
+	padding: 50px;
+}
+#footerNombre{
+	font-size: 20px;
+	float: left;
+	width: 260px;
+	height: 127px;
+	line-height: 25px;
+}
+#fN_nombre{	
+	color: #3A3A3A;
+	font-family: 'LoraRegular';
+    font-size: 35px;    
+    height: 45px;    
+	line-height: 45px;
+}	
+
+#nombreEmpresaFooter{
+    font-family: 'OpenSansBoldItalic';
+	font-size: 45px;
+    text-shadow: 0.5px 0.5px #fff;
+}
+
+small{
+	clear:both;
+	float: left;
+	font-size: 16px;
+	margin-top: 140px;
+	height: 20px;
+	line-height: 20px;
+}
+
+#footerPartners{
+	position: relative;
+	margin-left: 340px;
+	margin-top: 15px;
+	width: 520px;
+	height: 225px;
+    font-family: 'liberation_sansregular';
+    font-size: 80px;
+    text-align: justify;
+    line-height: 70px;
+    color: #A9A9A9;
+}
+#footerPartners .air{
+	font-family: 'airline_logos';
+}
+
+#footerContacto{
+	clear:both;
+	float: right;
+	position: relative;
+	margin-top: -275px;
+	text-align: right;
+	font-size: 18px;
+}
+
+#footerEnlaces {
+	float: right;
+	margin-top: -20px;
+}
+
+footer a{
+	color: #999999;
+	text-decoration: none;
+}
+
+footer a:link,
+footer a:visited,
+footer a:active,
+footer a {
+    text-decoration: none;
+    color: #999999;
+}
+
+footer a:hover{
+	color: black;
+}
+
+
+@media (max-width: 1299px){
+
+	/*  Encabezamiento  */
+	header {
+		min-width: 955px;
+	}
+	#header-center {
+		width: 925px;
+	}
+	#logo {		
+		float: left;
+		background-position: 0 -71px;
+		width: 131px;
+		height: 55px;
+		margin-top: 20px;
+		margin-left: 0px;
+	}	
+	#nombre-cabecera {
+		float: left;
+		margin-top: 6px;	
+		margin-left: 10px;
+		margin-top: 10px;
+		padding: 0px;
+		height: 55px;
+	}
+	
+	#search {
+		margin-right: 0;
+		margin-top: 35px;
+	}
+	#fondo_nav{
+		min-width: 955px;
+	}
+	#fondo_nav_center{
+		width: 925px;
+	}
+	nav{
+		clear: both;
+		float: right;
+		height: 40px;
+		margin-top: -10px;
+		margin-right: 0;
+	}
+	
+	/* Cuerpo */
+	
+	#body{	
+		width: 955px;
+	}
+	
+	#body_center{
+		width: 925px;
+	}
+	
+	#formulario{
+		float: left;
+		width: 490px;
+		height: 500px;
+		/*background-color: yellow;*/
+	}
+	
+	#datos{	
+		float: right;
+		width: 315px;
+		height: 500px;
+		/*background-color: yellow;*/
+	}	
+	
+	#titulo_contacto{
+		margin-left: 15px;
+	}
+
+	#texto_contacto{
+		width: 475px;
+		font-size: 18px;	
+		margin-left: 15px;
+	}
+
+	#form-contacto{
+		width: 475px;
+		/*background-color: red;*/
+		margin-left: 15px;
+	}
+	
+	/* Footer */
+	
+	footer{
+		min-width: 955px;
+	}
+
+	#footerCenter{
+		width: 925px;
+		padding: 0;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		
+	}
+	
+	#footerNombre{
+		width: 220px;
+		font-size: 17px;
+	}
+	
+	#fN_nombre{
+		font-size: 28px;
+	}
+	
+	small{
+		font-size: 12px;
+		margin-top: 140px;
+	}
+	
+	#footerPartners{
+		margin-left: 217px;
+		margin-top: 15px;
+		width: 491px;
+		font-size: 75px;
+		line-height: 70px;
+	}
+	
+	#footerContacto{
+		margin-top: -275px;
+		font-size: 16px;
+	}
+	
+	#footerEnlaces {
+		font-size: 12px;
+	}
+
+}
+
+/* font */
+
+@font-face {
+    font-family: 'airline_logos';
+    src: url('../font/airline_logos-webfont.eot');
+    src: url('../font/airline_logos-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/airline_logos-webfont.woff2') format('woff2'),
+         url('../font/airline_logos-webfont.woff') format('woff'),
+         url('../font/airline_logos-webfont.ttf') format('truetype'),
+         url('../font/airline_logos-webfont.svg#airline_logos_past_and_presRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../font/montserrat-regular-webfont.eot');
+    src: url('../font/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../font/montserrat-regular-webfont.woff') format('woff'),
+         url('../font/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../font/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nimbus_sans';
+    src: url('../font/nimbus-webfont.eot');
+    src: url('../font/nimbus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/nimbus-webfont.woff2') format('woff2'),
+         url('../font/nimbus-webfont.woff') format('woff'),
+         url('../font/nimbus-webfont.ttf') format('truetype'),
+         url('../font/nimbus-webfont.svg#nimbus_sans_becker_tligRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'liberation_sansregular';
+    src: url('../font/liberationsans-regular-webfont.eot');
+    src: url('../font/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/liberationsans-regular-webfont.woff2') format('woff2'),
+         url('../font/liberationsans-regular-webfont.woff') format('woff'),
+         url('../font/liberationsans-regular-webfont.ttf') format('truetype'),
+         url('../font/liberationsans-regular-webfont.svg#liberation_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'syncopateregular';
+    src: url('../font/syncopate-regular-webfont.eot');
+    src: url('../font/syncopate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/syncopate-regular-webfont.woff2') format('woff2'),
+         url('../font/syncopate-regular-webfont.woff') format('woff'),
+         url('../font/syncopate-regular-webfont.ttf') format('truetype'),
+         url('../font/syncopate-regular-webfont.svg#syncopateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('../font/droidserif-webfont.eot');
+    src: url('../font/droidserif-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/droidserif-webfont.woff2') format('woff2'),
+         url('../font/droidserif-webfont.woff') format('woff'),
+         url('../font/droidserif-webfont.ttf') format('truetype'),
+         url('../font/droidserif-webfont.svg#droid_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fugaz_oneregular';
+    src: url('../font/fugazone-regular-webfont.eot');
+    src: url('../font/fugazone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fugazone-regular-webfont.woff2') format('woff2'),
+         url('../font/fugazone-regular-webfont.woff') format('woff'),
+         url('../font/fugazone-regular-webfont.ttf') format('truetype'),
+         url('../font/fugazone-regular-webfont.svg#fugaz_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cantarelloblique';
+    src: url('../font/cantarell-oblique-webfont.eot');
+    src: url('../font/cantarell-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/cantarell-oblique-webfont.woff2') format('woff2'),
+         url('../font/cantarell-oblique-webfont.woff') format('woff'),
+         url('../font/cantarell-oblique-webfont.ttf') format('truetype'),
+         url('../font/cantarell-oblique-webfont.svg#cantarelloblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefin_sansregular';
+    src: url('../font/josefinsans-regular-webfont.eot');
+    src: url('../font/josefinsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/josefinsans-regular-webfont.woff2') format('woff2'),
+         url('../font/josefinsans-regular-webfont.woff') format('woff'),
+         url('../font/josefinsans-regular-webfont.ttf') format('truetype'),
+         url('../font/josefinsans-regular-webfont.svg#josefin_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweatherbold_italic';
+    src: url('../font/merriweather-bolditalic-webfont.eot');
+    src: url('../font/merriweather-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/merriweather-bolditalic-webfont.woff2') format('woff2'),
+         url('../font/merriweather-bolditalic-webfont.woff') format('woff'),
+         url('../font/merriweather-bolditalic-webfont.ttf') format('truetype'),
+         url('../font/merriweather-bolditalic-webfont.svg#merriweatherbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LoraRegular';
+    src: url('../font/lora-regular.eot');
+    src: url('../font/lora-regular.eot') format('embedded-opentype'),
+         url('../font/lora-regular.woff2') format('woff2'),
+         url('../font/lora-regular.woff') format('woff'),
+         url('../font/lora-regular.ttf') format('truetype'),
+         url('../font/lora-regular.svg#LoraRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('../font/opensans-bolditalic.eot');
+    src: url('../font/opensans-bolditalic.eot') format('embedded-opentype'),
+         url('../font/opensans-bolditalic.woff2') format('woff2'),
+         url('../font/opensans-bolditalic.woff') format('woff'),
+         url('../font/opensans-bolditalic.ttf') format('truetype'),
+         url('../font/opensans-bolditalic.svg#OpenSansBoldItalic') format('svg');
+}
